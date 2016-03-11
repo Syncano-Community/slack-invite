@@ -2,7 +2,8 @@ $(function(){
 
   var messages = {
     already_invited: "Uh oh! It looks like that email address has already been invited.<br>If you think this is an error, please send a note to <a style='color:white; text-decoration:underline' href='mailto:support@syncano.io'>support@syncano.io</a>.",
-    invite_sent: "Woo hoo!  Your invite is on it's way - welcome to the community!"
+    invite_sent: "Woo hoo!  Your invite is on it's way - welcome to the community!",
+    already_in_team: "We can't send you another invite - you are already a member!"
   }
 
   $('form').on('submit', function(e) {
