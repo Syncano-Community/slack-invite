@@ -15,6 +15,7 @@ $(function(){
     };
 
     $.post(url, data, function(data) {
+      console.log(data);
       var result = JSON.parse(data.result.stdout);
       if (result.error) {
         $('#msg .white-text').html(messages[result.error]);
