@@ -23,8 +23,6 @@ $(function(){
         $('#msg .white-text').html(messages.invite_sent);
         $('#msg').show().addClass('green');
       }
-
-      console.log(data);
     })
   });
 
