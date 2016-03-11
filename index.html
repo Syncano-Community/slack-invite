@@ -1,0 +1,58 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Join the Syncano Community</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css">
+  </head>
+  <style>
+  body {background-color: #1976d2; margin-top: 55px;}
+  .form {background:#ffffff;}
+  .btn,.btn-large, button:focus, .btn:hover, .btn-large:hover  {background-color: #1976d2;}
+  .btn:hover,.btn-large:hover {color: #ffffff; opacity: .8;}
+  #msg {display: none};
+  </style>
+  <body>
+    <div class="container">
+      <div class="row center-align">
+        <img src="img/syncano-logo-white.png" style="width:400px;" />
+      </div>
+      <div class="row">
+          <div class="col m6 offset-m3 z-depth-3 form">
+              <div class="row">
+                  <form class="col s12">
+                    <div class="row">
+                        <div class="input-field col s6">
+                          <input id="first_name" type="text" class="validate">
+                          <label for="first_name" data-error="Please provide a first name.">First Name</label>
+                        </div>
+                        <div class="input-field col s6">
+                          <input id="last_name" type="text" class="validate">
+                          <label for="last_name" data-error="Please provide a last name.">Last Name</label>
+                        </div>
+                      </div>
+                      <div class="row">
+                          <div class="input-field col s12">
+                              <input id="email" type="email" class="validate" required="" aria-required="true">
+                              <label for="email">Email</label>
+                          </div>
+                      </div>
+                      <div class="row">
+                        <div class="col m12 center-align">
+                          <div class="card-panel" id="msg"><span class="white-text"></span></div>
+                          <button class="btn btn-large waves-effect waves-light" type="submit">Join the Syncano Community on Slack</button>
+                          </div>
+                      </div>
+                  </form>
+              </div>
+          </div>
+      </div>
+  </div>
+    <script src="js/vendor/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script>
+    <script src="js/app.js"></script>
+    <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+  </body>
+</html>
